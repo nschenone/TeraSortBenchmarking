@@ -1,0 +1,2 @@
+20/05/04 18:04:11 INFO terasort.TeraSort: starting
+20/05/04 18:04:11 ERROR terasort.TeraSort: Input path does not exist: file:/home/hdfs/teragen/1G-terasort-input

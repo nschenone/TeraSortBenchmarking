@@ -1,0 +1,32 @@
+20/05/07 18:41:48 INFO client.RMProxy: Connecting to ResourceManager at node1/172.31.90.92:8050
+20/05/07 18:41:48 INFO client.AHSProxy: Connecting to Application History server at node1/172.31.90.92:10200
+20/05/07 18:41:48 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /user/hdfs/.staging/job_1588355826013_0087
+20/05/07 18:41:49 INFO terasort.TeraGen: Generating 10000000 using 92
+20/05/07 18:41:49 INFO mapreduce.JobSubmitter: number of splits:92
+20/05/07 18:41:49 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1588355826013_0087
+20/05/07 18:41:49 INFO mapreduce.JobSubmitter: Executing with tokens: []
+20/05/07 18:41:49 INFO conf.Configuration: found resource resource-types.xml at file:/etc/hadoop/3.0.1.0-187/0/resource-types.xml
+20/05/07 18:41:49 INFO impl.YarnClientImpl: Submitted application application_1588355826013_0087
+20/05/07 18:41:49 INFO mapreduce.Job: The url to track the job: http://node1:8088/proxy/application_1588355826013_0087/
+20/05/07 18:41:49 INFO mapreduce.Job: Running job: job_1588355826013_0087
+20/05/07 18:41:55 INFO mapreduce.Job: Job job_1588355826013_0087 running in uber mode : false
+20/05/07 18:41:55 INFO mapreduce.Job:  map 0% reduce 0%
+20/05/07 18:41:58 INFO mapreduce.Job:  map 100% reduce 0%
+20/05/07 18:45:43 INFO mapreduce.Job: Job job_1588355826013_0087 failed with state FAILED due to: Task failed task_1588355826013_0087_m_000034
+Job failed as tasks failed. failedMaps:1 failedReduces:0 killedMaps:0 killedReduces: 0
+
+20/05/07 18:45:43 INFO mapreduce.Job: Counters: 12
+	Job Counters 
+		Failed map tasks=9
+		Killed map tasks=83
+		Launched map tasks=92
+		Other local map tasks=92
+		Total time spent by all maps in occupied slots (ms)=72145
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=72145
+		Total vcore-milliseconds taken by all map tasks=72145
+		Total megabyte-milliseconds taken by all map tasks=147752960
+	Map-Reduce Framework
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0

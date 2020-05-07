@@ -1,0 +1,66 @@
+20/05/01 18:00:28 INFO client.RMProxy: Connecting to ResourceManager at node1/172.31.90.92:8050
+20/05/01 18:00:29 INFO client.AHSProxy: Connecting to Application History server at node1/172.31.90.92:10200
+20/05/01 18:00:29 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /user/hdfs/.staging/job_1588355826013_0001
+20/05/01 18:00:29 INFO terasort.TeraGen: Generating 10000000 using 92
+20/05/01 18:00:29 INFO mapreduce.JobSubmitter: number of splits:92
+20/05/01 18:00:30 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1588355826013_0001
+20/05/01 18:00:30 INFO mapreduce.JobSubmitter: Executing with tokens: []
+20/05/01 18:00:30 INFO conf.Configuration: found resource resource-types.xml at file:/etc/hadoop/3.0.1.0-187/0/resource-types.xml
+20/05/01 18:00:30 INFO impl.YarnClientImpl: Submitted application application_1588355826013_0001
+20/05/01 18:00:30 INFO mapreduce.Job: The url to track the job: http://node1:8088/proxy/application_1588355826013_0001/
+20/05/01 18:00:30 INFO mapreduce.Job: Running job: job_1588355826013_0001
+20/05/01 18:00:36 INFO mapreduce.Job: Job job_1588355826013_0001 running in uber mode : false
+20/05/01 18:00:36 INFO mapreduce.Job:  map 0% reduce 0%
+20/05/01 18:00:50 INFO mapreduce.Job:  map 3% reduce 0%
+20/05/01 18:00:51 INFO mapreduce.Job:  map 9% reduce 0%
+20/05/01 18:00:52 INFO mapreduce.Job:  map 26% reduce 0%
+20/05/01 18:00:53 INFO mapreduce.Job:  map 48% reduce 0%
+20/05/01 18:00:54 INFO mapreduce.Job:  map 50% reduce 0%
+20/05/01 18:00:59 INFO mapreduce.Job:  map 51% reduce 0%
+20/05/01 18:01:02 INFO mapreduce.Job:  map 57% reduce 0%
+20/05/01 18:01:03 INFO mapreduce.Job:  map 61% reduce 0%
+20/05/01 18:01:05 INFO mapreduce.Job:  map 63% reduce 0%
+20/05/01 18:01:06 INFO mapreduce.Job:  map 71% reduce 0%
+20/05/01 18:01:07 INFO mapreduce.Job:  map 92% reduce 0%
+20/05/01 18:01:08 INFO mapreduce.Job:  map 100% reduce 0%
+20/05/01 18:06:12 INFO mapreduce.Job: Job job_1588355826013_0001 completed successfully
+20/05/01 18:06:12 INFO mapreduce.Job: Counters: 33
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=21226138
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=7817
+		HDFS: Number of bytes written=1000000000
+		HDFS: Number of read operations=552
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=184
+	Job Counters 
+		Launched map tasks=92
+		Other local map tasks=92
+		Total time spent by all maps in occupied slots (ms)=1235924
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=1235924
+		Total vcore-milliseconds taken by all map tasks=1235924
+		Total megabyte-milliseconds taken by all map tasks=2531172352
+	Map-Reduce Framework
+		Map input records=10000000
+		Map output records=10000000
+		Input split bytes=7817
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=23391
+		CPU time spent (ms)=165090
+		Physical memory (bytes) snapshot=25068707840
+		Virtual memory (bytes) snapshot=337858854912
+		Total committed heap usage (bytes)=31775522816
+		Peak Map Physical memory (bytes)=285167616
+		Peak Map Virtual memory (bytes)=3681017856
+	org.apache.hadoop.examples.terasort.TeraGen$Counters
+		CHECKSUM=21472776955442690
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1000000000

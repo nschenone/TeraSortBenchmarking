@@ -1,0 +1,7 @@
+20/05/07 18:45:47 INFO terasort.TeraSort: starting
+20/05/07 18:45:48 INFO input.FileInputFormat: Total input files to process : 0
+Spent 91ms computing base-splits.
+Spent 2ms computing TeraScheduler splits.
+Computing input splits took 94ms
+Sampling 0 splits of 0
+20/05/07 18:45:48 ERROR terasort.TeraSort: / by zero
